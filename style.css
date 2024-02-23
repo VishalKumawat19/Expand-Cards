@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  margin-top: 10vh;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  border-radius: 2rem;
+  height: 80vh;
+  width: 100px; /* Set the initial width */
+  transition: width 1.6s ease; /* Add transition for smooth animation */
+  cursor: pointer;
+ 
+}
+
+img.effect {
+   width: 800px;
+   
+}
+
